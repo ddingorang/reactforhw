@@ -12,8 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        assa : ['var(--assa)'],
+      },
     },
   },
-  plugins: [],
+  plugins: [require('daisyui'),],
 };
 export default config;
